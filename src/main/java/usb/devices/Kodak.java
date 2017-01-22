@@ -19,13 +19,13 @@
 
 package usb.devices;
 
-import java.io.InputStream;
+import usb.core.Device;
+import usb.util.USBSocket;
+
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.RandomAccessFile;
-
-import usb.core.*;
-import usb.util.USBSocket;
 
 
 /**

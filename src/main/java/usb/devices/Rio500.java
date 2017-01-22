@@ -19,11 +19,14 @@
 
 package usb.devices;
 
-import java.io.*;
-import java.util.Vector;
-
-import usb.core.*;
+import usb.core.ControlMessage;
+import usb.core.Device;
+import usb.core.DeviceDescriptor;
 import usb.util.USBSocket;
+
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.util.Vector;
 
 
 /**

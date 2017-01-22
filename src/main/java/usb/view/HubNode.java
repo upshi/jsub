@@ -19,12 +19,11 @@
 
 package usb.view;
 
-import java.io.IOException;
-import java.util.Vector;
-import javax.swing.tree.TreeNode;
-import javax.swing.tree.DefaultTreeModel;
-
 import usb.core.*;
+
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.TreeNode;
+import java.io.IOException;
 
 
 /**

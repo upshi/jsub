@@ -19,12 +19,12 @@
 
 package usb.remote;
 
+import usb.core.*;
+
 import java.io.IOException;
 import java.io.Serializable;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.Hashtable;
-
-import usb.core.*;
 
 
     // FIXME:  Don't let one client's proxy use another's interface

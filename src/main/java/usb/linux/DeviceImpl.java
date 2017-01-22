@@ -19,13 +19,13 @@
 
 package usb.linux;
 
+import usb.core.*;
+import usb.util.LangCode;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Hashtable;
 import java.util.Locale;
-
-import usb.core.*;
-import usb.util.LangCode;
 
 
 /**
